@@ -26,17 +26,28 @@
             border-radius: 8px;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
-        h1, h2 {
+        h1 {
+            color: #ffffff;
+        }
+        h2 {
             color: #0078d4;
         }
         p {
             line-height: 1.6;
         }
-        ul {
-            padding-left: 20px;
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
         }
-        ul li {
-            margin-bottom: 10px;
+        table th, table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        table th {
+            background-color: #0078d4;
+            color: white;
         }
     </style>
 </head>
@@ -57,23 +68,38 @@
 
         <section>
             <h2>Education</h2>
-            <ul>
-                <li><strong>Degree:</strong> Your Degree (e.g., B.Tech in Computer Science)</li>
-                <li><strong>Institution:</strong> Your College/University</li>
-                <li><strong>Year of Graduation:</strong> YYYY</li>
-            </ul>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Degree</th>
+                        <th>Institution</th>
+                        <th>Year of Graduation</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>M.Tech in Data Science and Engineering</td>
+                        <td>Birla Institute of Technology and Science (BITS)</td>
+                        <td>2024</td>
+                    </tr>
+                    <tr>
+                        <td>B.Tech in Computer Science and Engineering</td>
+                        <td>Vaagdevi College of Engineering (JNTU)</td>
+                        <td>2003</td>
+                    </tr>
+                </tbody>
+            </table>
         </section>
 
         <section>
             <h2>Professional Experience</h2>
             <ul>
                 <li>
-                    <strong>Position:</strong> Software Engineer<br>
-                    <strong>Company:</strong> Your Company<br>
-                    <strong>Duration:</strong> Start Date - End Date<br>
+                    <strong>Position:</strong> Senior Manager<br>
+                    <strong>Company:</strong> Hitachi Digital Services<br>
+                    <strong>Duration:</strong> December 2007 - Present<br>
                     <p>Brief description of your role and responsibilities.</p>
                 </li>
-                <!-- Add more experiences as needed -->
             </ul>
         </section>
 
